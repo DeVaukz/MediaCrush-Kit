@@ -44,8 +44,8 @@
 //! @param  objectIDs
 //!         An array of \c NSString objects.
 //! @return
-//! A signal that sends a \c RACTuple(objectID, MCKFile or NSNull) describing
-//! each objectID, and complete.
+//! A signal that sends a \c RACTuple(objectID, MCKFile) describing each
+//! objectID, and complete.
 - (RACSignal*)fetchFilesWithIDs:(NSArray*)objectIDs;
 
 //◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦//

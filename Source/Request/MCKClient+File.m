@@ -60,7 +60,7 @@
             NSDictionary *value = JSONDictionary[objectID];
             
             if ([value isEqual:NSNull.null]) {
-                [subject sendNext:RACTuplePack([NSURL URLWithString:objectID], value)];
+                [subject sendNext:RACTuplePack([NSURL URLWithString:objectID], nil)];
                 continue;
             }
             

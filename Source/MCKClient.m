@@ -223,7 +223,7 @@ static NSDictionary *SurrogateClasses = nil;
 #pragma unused (response)
     
     dispatch_async(_queue, ^{
-        self.data = [[NSMutableData alloc] initWithCapacity:dataTask.countOfBytesExpectedToReceive];
+        self.data = [[NSMutableData alloc] initWithCapacity:(dataTask.countOfBytesExpectedToReceive != NSURLSessionTransferSizeUnknown) ?: 0];
         [self _nextForTask:dataTask state:MCKRequestStateRunning content:self.data client:client](self);
         completionHandler(NSURLSessionResponseAllow);
     });
