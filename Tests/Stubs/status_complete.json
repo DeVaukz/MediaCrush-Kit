@@ -1,0 +1,55 @@
+{
+    "CPvuR5lRhmS0": {
+        "file": {
+            "blob_type": "video",
+            "compression": 8.93,
+            "extras": [
+                       {
+                       "file": "/CPvuR5lRhmS0.jpg",
+                       "type": "image/jpeg",
+                       "url": "https://cdn.mediacru.sh/CPvuR5lRhmS0.jpg"
+                       }
+                       ],
+            "files": [
+                      {
+                      "file": "/CPvuR5lRhmS0.gif",
+                      "type": "image/gif",
+                      "url": "https://cdn.mediacru.sh/CPvuR5lRhmS0.gif"
+                      },
+                      {
+                      "file": "/CPvuR5lRhmS0.mp4",
+                      "type": "video/mp4",
+                      "url": "https://cdn.mediacru.sh/CPvuR5lRhmS0.mp4"
+                      },
+                      {
+                      "file": "/CPvuR5lRhmS0.webm",
+                      "type": "video/webm",
+                      "url": "https://cdn.mediacru.sh/CPvuR5lRhmS0.webm"
+                      },
+                      {
+                      "file": "/CPvuR5lRhmS0.ogv",
+                      "type": "video/ogg",
+                      "url": "https://cdn.mediacru.sh/CPvuR5lRhmS0.ogv"
+                      }
+                      ],
+            "flags": {
+                "autoplay": true,
+                "loop": true, 
+                "mute": true, 
+                "nsfw": false
+            }, 
+            "hash": "CPvuR5lRhmS0", 
+            "metadata": {
+                "dimensions": {
+                    "height": 217, 
+                    "width": 317
+                }, 
+                "has_audio": false, 
+                "has_video": true
+            }, 
+            "original": "/CPvuR5lRhmS0.gif", 
+            "type": "image/gif"
+        }, 
+        "status": "done"
+    }
+}

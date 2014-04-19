@@ -1,0 +1,27 @@
+{
+    "http://does.not/exist.gif": null,
+    "http://i.imgur.com/rctIj1M.jpg": {
+        "blob_type": "image",
+        "compression": 1.0,
+        "extras": [],
+        "files": [
+                  {
+                  "file": "/4Gt0YcGMPA7S.jpg",
+                  "url": "https://mediacru.sh/4Gt0YcGMPA7S.jpg",
+                  "type": "image/jpeg"
+                  }
+                  ],
+        "flags": {},
+        "metadata": {
+            "dimensions": {
+                "height": 281,
+                "width": 500
+            },
+            "has_audio": false,
+            "has_video": true
+        },
+        "hash": "4Gt0YcGMPA7S",
+        "original": "/4Gt0YcGMPA7S.jpg",
+        "type": "image/jpeg"
+    }
+}

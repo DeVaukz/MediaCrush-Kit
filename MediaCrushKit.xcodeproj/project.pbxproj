@@ -1,0 +1,1368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0160B7318E0B414006ACEB3 /* MCKClient+Object.h in Headers */ = {isa = PBXBuildFile; fileRef = D0160B7118E0B414006ACEB3 /* MCKClient+Object.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0160B7418E0B414006ACEB3 /* MCKClient+Object.m in Sources */ = {isa = PBXBuildFile; fileRef = D0160B7218E0B414006ACEB3 /* MCKClient+Object.m */; };
+		D0160B7818E257DA006ACEB3 /* NSURLSessionConfiguration+MCKCopying.h in Headers */ = {isa = PBXBuildFile; fileRef = D0160B7618E257DA006ACEB3 /* NSURLSessionConfiguration+MCKCopying.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0160B7918E257DA006ACEB3 /* NSURLSessionConfiguration+MCKCopying.m in Sources */ = {isa = PBXBuildFile; fileRef = D0160B7718E257DA006ACEB3 /* NSURLSessionConfiguration+MCKCopying.m */; };
+		D01DA69918DAA8F4008CA67F /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D01DA68A18DAA8DA008CA67F /* ReactiveCocoa.framework */; };
+		D028274F18A97C5500C9A371 /* MediaCrushKit-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = D028274D18A97C5500C9A371 /* MediaCrushKit-Prefix.pch */; };
+		D035D12A18F50A9F003A6F26 /* MCKClientSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D035D12918F50A9F003A6F26 /* MCKClientSpec.m */; };
+		D0460EA318B477D500DDBB47 /* MCKServer.h in Headers */ = {isa = PBXBuildFile; fileRef = D0460EA118B477D500DDBB47 /* MCKServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0460EA418B477D500DDBB47 /* MCKServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D0460EA218B477D500DDBB47 /* MCKServer.m */; };
+		D048B27218F64B1B0012E280 /* exists_true.json in Resources */ = {isa = PBXBuildFile; fileRef = D048B27118F64B1B0012E280 /* exists_true.json */; };
+		D048B27318F64CE20012E280 /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D035D11B18F4FE21003A6F26 /* OHHTTPStubs.framework */; };
+		D048B27518F6683A0012E280 /* MCKFileFlagsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D048B27418F6683A0012E280 /* MCKFileFlagsSpec.m */; };
+		D048B27718F66E8F0012E280 /* MCKMediaFileSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D048B27618F66E8F0012E280 /* MCKMediaFileSpec.m */; };
+		D048B27F18F671AE0012E280 /* MCKFileMetadataSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D048B27E18F671AE0012E280 /* MCKFileMetadataSpec.m */; };
+		D05157CC18AA06BE00AA88F5 /* MCKMediaFile.h in Headers */ = {isa = PBXBuildFile; fileRef = D05157CA18AA06BE00AA88F5 /* MCKMediaFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D05157CD18AA06BE00AA88F5 /* MCKMediaFile.m in Sources */ = {isa = PBXBuildFile; fileRef = D05157CB18AA06BE00AA88F5 /* MCKMediaFile.m */; };
+		D05157D018AA0BAA00AA88F5 /* MCKFile.h in Headers */ = {isa = PBXBuildFile; fileRef = D05157CE18AA0BAA00AA88F5 /* MCKFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D05157D118AA0BAA00AA88F5 /* MCKFile.m in Sources */ = {isa = PBXBuildFile; fileRef = D05157CF18AA0BAA00AA88F5 /* MCKFile.m */; };
+		D05157D418AA806100AA88F5 /* MCKAlbum.h in Headers */ = {isa = PBXBuildFile; fileRef = D05157D218AA806100AA88F5 /* MCKAlbum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D05157D518AA806100AA88F5 /* MCKAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = D05157D318AA806100AA88F5 /* MCKAlbum.m */; };
+		D05157D818AA819800AA88F5 /* MCKFileFlags.h in Headers */ = {isa = PBXBuildFile; fileRef = D05157D618AA819800AA88F5 /* MCKFileFlags.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D05157D918AA819800AA88F5 /* MCKFileFlags.m in Sources */ = {isa = PBXBuildFile; fileRef = D05157D718AA819800AA88F5 /* MCKFileFlags.m */; };
+		D05C0E3E18A77BF000E63CB9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05C0E3D18A77BF000E63CB9 /* XCTest.framework */; };
+		D05C0E4218A77BF000E63CB9 /* MediaCrushKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05C0E2518A77BF000E63CB9 /* MediaCrushKit.framework */; };
+		D05EA6AE18F798D50050D9D4 /* MCKFileSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D05EA6AD18F798D50050D9D4 /* MCKFileSpec.m */; };
+		D05EA6CA18F7A08A0050D9D4 /* MCKAlbumSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D05EA6C918F7A08A0050D9D4 /* MCKAlbumSpec.m */; };
+		D05EA6E018F7A1510050D9D4 /* example_album.json in Resources */ = {isa = PBXBuildFile; fileRef = D05EA6DF18F7A1510050D9D4 /* example_album.json */; };
+		D063385018F1E704008EBFAC /* MCKResponseProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = D063384E18F1E704008EBFAC /* MCKResponseProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D063385118F1E704008EBFAC /* MCKResponseProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = D063384F18F1E704008EBFAC /* MCKResponseProcessor.m */; };
+		D066A41018ECAB87008D1757 /* MCKConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = D066A40E18ECAB87008D1757 /* MCKConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D066A41118ECAB87008D1757 /* MCKConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D066A40F18ECAB87008D1757 /* MCKConstants.m */; };
+		D07B43AB18F3A0D200F93786 /* MCKObject_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D0C1514618D544160075264D /* MCKObject_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D07B43AC18F3A0DA00F93786 /* MCKRequestStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = D061AFAD18E78D7900866B2D /* MCKRequestStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D07B43B018F3A98900F93786 /* MCKObjectSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D07B43AF18F3A98900F93786 /* MCKObjectSpec.m */; };
+		D07B43B218F3B13500F93786 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C1521318D630280075264D /* AFNetworking.framework */; };
+		D07B43B318F3B13A00F93786 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D01DA68A18DAA8DA008CA67F /* ReactiveCocoa.framework */; };
+		D07B43B418F3B13E00F93786 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D8D65D18B32B4B004BB3FC /* Mantle.framework */; };
+		D07B441718F3BCB600F93786 /* libExpecta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D07B440E18F3BC8400F93786 /* libExpecta.a */; };
+		D07B441818F3BCBB00F93786 /* libSpecta-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D07B440018F3BC7F00F93786 /* libSpecta-OSX.a */; };
+		D07B441E18F3C26500F93786 /* MCKServerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D07B441D18F3C26500F93786 /* MCKServerSpec.m */; };
+		D089624218FCCF1900B39E02 /* upload_valid.json in Resources */ = {isa = PBXBuildFile; fileRef = D089624118FCCF1900B39E02 /* upload_valid.json */; };
+		D089625818FCCF2600B39E02 /* upload_exists.json in Resources */ = {isa = PBXBuildFile; fileRef = D089625718FCCF2600B39E02 /* upload_exists.json */; };
+		D089625A18FCD1A700B39E02 /* MCKRequestStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = D089625918FCD1A700B39E02 /* MCKRequestStatus.m */; };
+		D089625C18FCD1CC00B39E02 /* MCKRequestStatus_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D089625B18FCD1BD00B39E02 /* MCKRequestStatus_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D0BFB45E18FA24840049D82F /* url-info_valid.json in Resources */ = {isa = PBXBuildFile; fileRef = D0BFB45D18FA24840049D82F /* url-info_valid.json */; };
+		D0BFB49518FA4CDE0049D82F /* MCKClient+File.h in Headers */ = {isa = PBXBuildFile; fileRef = D0BFB49318FA4CDE0049D82F /* MCKClient+File.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0BFB49618FA4CDE0049D82F /* MCKClient+File.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BFB49418FA4CDE0049D82F /* MCKClient+File.m */; };
+		D0BFB49818FA5A390049D82F /* flags_valid.json in Resources */ = {isa = PBXBuildFile; fileRef = D0BFB49718FA5A390049D82F /* flags_valid.json */; };
+		D0BFB4B018FA646B0049D82F /* file-info_valid.json in Resources */ = {isa = PBXBuildFile; fileRef = D0BFB4AF18FA646B0049D82F /* file-info_valid.json */; };
+		D0BFB4D718FB6A210049D82F /* MCKClient+Album.h in Headers */ = {isa = PBXBuildFile; fileRef = D0BFB4D518FB6A210049D82F /* MCKClient+Album.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0BFB4D818FB6A210049D82F /* MCKClient+Album.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BFB4D618FB6A210049D82F /* MCKClient+Album.m */; };
+		D0BFB4DA18FB7A7C0049D82F /* album-create.json in Resources */ = {isa = PBXBuildFile; fileRef = D0BFB4D918FB7A7C0049D82F /* album-create.json */; };
+		D0C1514018D5125B0075264D /* MCKClient.h in Headers */ = {isa = PBXBuildFile; fileRef = D0C1513E18D5125B0075264D /* MCKClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0C1514118D5125B0075264D /* MCKClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C1513F18D5125B0075264D /* MCKClient.m */; };
+		D0C1514418D515490075264D /* MCKFileMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = D0C1514218D515490075264D /* MCKFileMetadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0C1514518D515490075264D /* MCKFileMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C1514318D515490075264D /* MCKFileMetadata.m */; };
+		D0C1520718D6300C0075264D /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C1520618D6300C0075264D /* AFNetworking.framework */; };
+		D0D8D66818B32C41004BB3FC /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D8D65D18B32B4B004BB3FC /* Mantle.framework */; };
+		D0D8D66918B32C48004BB3FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05C0E2B18A77BF000E63CB9 /* Foundation.framework */; };
+		D0D8D66B18B333ED004BB3FC /* MediaCrushKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D0D8D66A18B333ED004BB3FC /* MediaCrushKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0D8D66F18B3BD27004BB3FC /* MCKObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D0D8D66D18B3BD27004BB3FC /* MCKObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0D8D67018B3BD27004BB3FC /* MCKObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D8D66E18B3BD27004BB3FC /* MCKObject.m */; };
+		D0DB9E7418FB89AA00525C63 /* MCKClient+Upload.h in Headers */ = {isa = PBXBuildFile; fileRef = D0DB9E7218FB89AA00525C63 /* MCKClient+Upload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0DB9E7518FB89AA00525C63 /* MCKClient+Upload.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DB9E7318FB89AA00525C63 /* MCKClient+Upload.m */; };
+		D0DB9E7718FB90FC00525C63 /* status_incomplete.json in Resources */ = {isa = PBXBuildFile; fileRef = D0DB9E7618FB90FC00525C63 /* status_incomplete.json */; };
+		D0DB9E7918FB911500525C63 /* status_complete.json in Resources */ = {isa = PBXBuildFile; fileRef = D0DB9E7818FB911500525C63 /* status_complete.json */; };
+		D0E319B018F8DF63000E636D /* exists_false.json in Resources */ = {isa = PBXBuildFile; fileRef = D0E319AF18F8DF63000E636D /* exists_false.json */; };
+		D0E319C718F8E218000E636D /* MCKClient+URL.h in Headers */ = {isa = PBXBuildFile; fileRef = D0E319C518F8E218000E636D /* MCKClient+URL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0E319C818F8E218000E636D /* MCKClient+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E319C618F8E218000E636D /* MCKClient+URL.m */; };
+		D0E319CA18F92320000E636D /* MCKResponseProcessorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E319C918F92320000E636D /* MCKResponseProcessorSpec.m */; };
+		D0F97C2318FF730C0032F65F /* empty.json in Resources */ = {isa = PBXBuildFile; fileRef = D0F97C2218FF730C0032F65F /* empty.json */; };
+		D0F97C3918FF77870032F65F /* album-info_valid.json in Resources */ = {isa = PBXBuildFile; fileRef = D0F97C3818FF77870032F65F /* album-info_valid.json */; };
+		D0F97C3C18FF7FDE0032F65F /* MCKClient+Download.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F97C3A18FF7FDE0032F65F /* MCKClient+Download.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0F97C3D18FF7FDE0032F65F /* MCKClient+Download.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F97C3B18FF7FDE0032F65F /* MCKClient+Download.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D01DA68918DAA8DA008CA67F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D01DA65818DAA8C5008CA67F /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88037F8315056328001A5B19;
+			remoteInfo = ReactiveCocoa;
+		};
+		D01DA68B18DAA8DA008CA67F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D01DA65818DAA8C5008CA67F /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88F440AB153DAC820097B4C3;
+			remoteInfo = "ReactiveCocoa-iOS";
+		};
+		D01DA68D18DAA8DA008CA67F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D01DA65818DAA8C5008CA67F /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88CDF7DC15000FCF00163A9F;
+			remoteInfo = ReactiveCocoaTests;
+		};
+		D01DA68F18DAA8DA008CA67F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D01DA65818DAA8C5008CA67F /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5FAF5223174D4C2000CAC810;
+			remoteInfo = "ReactiveCocoaTests-iOS";
+		};
+		D01DA69118DAA8DA008CA67F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D01DA65818DAA8C5008CA67F /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1860F412177C91B500C7B3C9;
+			remoteInfo = "ReactiveCocoa-iOS-UIKitTestHost";
+		};
+		D01DA69318DAA8DA008CA67F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D01DA65818DAA8C5008CA67F /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1860F430177C91B500C7B3C9;
+			remoteInfo = "ReactiveCocoa-iOS-UIKitTestHostTests";
+		};
+		D01DA69518DAA8DA008CA67F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D01DA65818DAA8C5008CA67F /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D05AD39417F2D56F0080895B;
+			remoteInfo = "ReactiveCocoa-Mac";
+		};
+		D01DA69718DAA8E4008CA67F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D01DA65818DAA8C5008CA67F /* ReactiveCocoa.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 88037F8215056328001A5B19;
+			remoteInfo = ReactiveCocoa;
+		};
+		D035D11618F4FE21003A6F26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D035D10718F4FE21003A6F26 /* OHHTTPStubs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 09793579161B6251006DB5D5;
+			remoteInfo = "OHHTTPStubs iOS";
+		};
+		D035D11818F4FE21003A6F26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D035D10718F4FE21003A6F26 /* OHHTTPStubs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 098368CE168FC7920082B1A4;
+			remoteInfo = "OHHTTPStubs iOS Tests";
+		};
+		D035D11A18F4FE21003A6F26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D035D10718F4FE21003A6F26 /* OHHTTPStubs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27CE42E4184CD21D00484665;
+			remoteInfo = "OHHTTPStubs Mac";
+		};
+		D035D11C18F4FE21003A6F26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D035D10718F4FE21003A6F26 /* OHHTTPStubs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27CE42F9184CD21D00484665;
+			remoteInfo = "OHHTTPStubs Mac Tests";
+		};
+		D035D12718F4FE45003A6F26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D035D10718F4FE21003A6F26 /* OHHTTPStubs.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 27CE42E3184CD21D00484665;
+			remoteInfo = "OHHTTPStubs Mac";
+		};
+		D05C0E4018A77BF000E63CB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D05C0E1C18A77BEF00E63CB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D05C0E2418A77BF000E63CB9;
+			remoteInfo = CocoaCrush;
+		};
+		D07B43FD18F3BC7F00F93786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D07B43F618F3BC7F00F93786 /* Specta.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E9901BFD18205A3500844A05;
+			remoteInfo = "Specta-iOS";
+		};
+		D07B43FF18F3BC7F00F93786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D07B43F618F3BC7F00F93786 /* Specta.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E9901C2A18205AB100844A05;
+			remoteInfo = "Specta-OSX";
+		};
+		D07B440118F3BC7F00F93786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D07B43F618F3BC7F00F93786 /* Specta.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E9901C0D18205A3500844A05;
+			remoteInfo = "SpectaTests-iOS";
+		};
+		D07B440318F3BC7F00F93786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D07B43F618F3BC7F00F93786 /* Specta.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E9901C3B18205AB100844A05;
+			remoteInfo = "Specta-OSXTests";
+		};
+		D07B440D18F3BC8400F93786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D07B440518F3BC8300F93786 /* Expecta.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E9ACDF0C13B2DD520010F4D7;
+			remoteInfo = Expecta;
+		};
+		D07B440F18F3BC8400F93786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D07B440518F3BC8300F93786 /* Expecta.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E93067CE13B2E6D100EA26FF;
+			remoteInfo = "Expecta-iOS";
+		};
+		D07B441118F3BC8400F93786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D07B440518F3BC8300F93786 /* Expecta.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E9ACDF1D13B2DD520010F4D7;
+			remoteInfo = ExpectaTests;
+		};
+		D07B441318F3BC8400F93786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D07B440518F3BC8300F93786 /* Expecta.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E93067DA13B2E6D100EA26FF;
+			remoteInfo = "Expecta-iOSTests";
+		};
+		D07B441518F3BC8400F93786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D07B440518F3BC8300F93786 /* Expecta.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9C4416F917FF3F4A00978F09;
+			remoteInfo = "ExpectaTests-XCTest";
+		};
+		D07B441918F3BD6100F93786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D07B440518F3BC8300F93786 /* Expecta.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E9ACDF0B13B2DD520010F4D7;
+			remoteInfo = Expecta;
+		};
+		D07B441B18F3BD6400F93786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D07B43F618F3BC7F00F93786 /* Specta.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E9901C2918205AB100844A05;
+			remoteInfo = "Specta-OSX";
+		};
+		D0C1521218D630280075264D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0C151FC18D62FBD0075264D /* MediaCrushKitDependencies.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0C151A018D6249D0075264D;
+			remoteInfo = "AFNetworking OS X";
+		};
+		D0C1521418D6302E0075264D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0C151FC18D62FBD0075264D /* MediaCrushKitDependencies.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D0C1519F18D6249D0075264D;
+			remoteInfo = "AFNetworking OS X";
+		};
+		D0D8D65C18B32B4B004BB3FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0D8D65218B32B4A004BB3FC /* Mantle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D042FC3C15F72B23004E8054;
+			remoteInfo = Mantle;
+		};
+		D0D8D65E18B32B4B004BB3FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0D8D65218B32B4A004BB3FC /* Mantle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D042FC5415F72B23004E8054;
+			remoteInfo = "Mantle Tests";
+		};
+		D0D8D66018B32B4B004BB3FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0D8D65218B32B4A004BB3FC /* Mantle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D042FC7915F72BC7004E8054;
+			remoteInfo = "Mantle-iOS";
+		};
+		D0D8D66218B32B4B004BB3FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0D8D65218B32B4A004BB3FC /* Mantle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D042FC8715F72BC7004E8054;
+			remoteInfo = "Mantle-iOS Tests";
+		};
+		D0D8D66418B32B4B004BB3FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0D8D65218B32B4A004BB3FC /* Mantle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0A56B461804B04900A84EDC;
+			remoteInfo = "Mantle-Mac";
+		};
+		D0D8D66618B32B77004BB3FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0D8D65218B32B4A004BB3FC /* Mantle.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D042FC3B15F72B23004E8054;
+			remoteInfo = Mantle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0160B7118E0B414006ACEB3 /* MCKClient+Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MCKClient+Object.h"; sourceTree = "<group>"; };
+		D0160B7218E0B414006ACEB3 /* MCKClient+Object.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MCKClient+Object.m"; sourceTree = "<group>"; };
+		D0160B7618E257DA006ACEB3 /* NSURLSessionConfiguration+MCKCopying.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSessionConfiguration+MCKCopying.h"; sourceTree = "<group>"; };
+		D0160B7718E257DA006ACEB3 /* NSURLSessionConfiguration+MCKCopying.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSessionConfiguration+MCKCopying.m"; sourceTree = "<group>"; };
+		D01DA65818DAA8C5008CA67F /* ReactiveCocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveCocoa.xcodeproj; path = ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa.xcodeproj; sourceTree = "<group>"; };
+		D028273618A97A9500C9A371 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		D028273818A97AC200C9A371 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		D028273918A97AC200C9A371 /* Profile.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Profile.xcconfig; sourceTree = "<group>"; };
+		D028273A18A97AC200C9A371 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		D028273D18A97AED00C9A371 /* Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
+		D028273E18A97AED00C9A371 /* StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = StaticLibrary.xcconfig; sourceTree = "<group>"; };
+		D028274018A97B0800C9A371 /* iOS-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Application.xcconfig"; sourceTree = "<group>"; };
+		D028274118A97B0800C9A371 /* iOS-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Base.xcconfig"; sourceTree = "<group>"; };
+		D028274218A97B0800C9A371 /* iOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
+		D028274418A97B2800C9A371 /* Mac-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Application.xcconfig"; sourceTree = "<group>"; };
+		D028274518A97B2800C9A371 /* Mac-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Base.xcconfig"; sourceTree = "<group>"; };
+		D028274618A97B2800C9A371 /* Mac-DynamicLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-DynamicLibrary.xcconfig"; sourceTree = "<group>"; };
+		D028274718A97B2800C9A371 /* Mac-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Framework.xcconfig"; sourceTree = "<group>"; };
+		D028274818A97B2800C9A371 /* Mac-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
+		D028274C18A97C5500C9A371 /* MediaCrushKit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MediaCrushKit-Info.plist"; sourceTree = "<group>"; };
+		D028274D18A97C5500C9A371 /* MediaCrushKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MediaCrushKit-Prefix.pch"; sourceTree = "<group>"; };
+		D028275018A97C6700C9A371 /* MediaCrushKit-Tests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MediaCrushKit-Tests-Info.plist"; sourceTree = "<group>"; };
+		D035D10718F4FE21003A6F26 /* OHHTTPStubs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OHHTTPStubs.xcodeproj; path = OHHTTPStubs/OHHTTPStubs/OHHTTPStubs.xcodeproj; sourceTree = "<group>"; };
+		D035D12918F50A9F003A6F26 /* MCKClientSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCKClientSpec.m; sourceTree = "<group>"; };
+		D0460EA118B477D500DDBB47 /* MCKServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCKServer.h; sourceTree = "<group>"; };
+		D0460EA218B477D500DDBB47 /* MCKServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCKServer.m; sourceTree = "<group>"; };
+		D048B27118F64B1B0012E280 /* exists_true.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exists_true.json; sourceTree = "<group>"; };
+		D048B27418F6683A0012E280 /* MCKFileFlagsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCKFileFlagsSpec.m; sourceTree = "<group>"; };
+		D048B27618F66E8F0012E280 /* MCKMediaFileSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCKMediaFileSpec.m; sourceTree = "<group>"; };
+		D048B27E18F671AE0012E280 /* MCKFileMetadataSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCKFileMetadataSpec.m; sourceTree = "<group>"; };
+		D05157CA18AA06BE00AA88F5 /* MCKMediaFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCKMediaFile.h; sourceTree = "<group>"; };
+		D05157CB18AA06BE00AA88F5 /* MCKMediaFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCKMediaFile.m; sourceTree = "<group>"; };
+		D05157CE18AA0BAA00AA88F5 /* MCKFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCKFile.h; sourceTree = "<group>"; };
+		D05157CF18AA0BAA00AA88F5 /* MCKFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCKFile.m; sourceTree = "<group>"; };
+		D05157D218AA806100AA88F5 /* MCKAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCKAlbum.h; sourceTree = "<group>"; };
+		D05157D318AA806100AA88F5 /* MCKAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCKAlbum.m; sourceTree = "<group>"; };
+		D05157D618AA819800AA88F5 /* MCKFileFlags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCKFileFlags.h; sourceTree = "<group>"; };
+		D05157D718AA819800AA88F5 /* MCKFileFlags.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCKFileFlags.m; sourceTree = "<group>"; };
+		D05C0E2518A77BF000E63CB9 /* MediaCrushKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MediaCrushKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05C0E2B18A77BF000E63CB9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D05C0E3C18A77BF000E63CB9 /* MediaCrushKit Mac Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MediaCrushKit Mac Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05C0E3D18A77BF000E63CB9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D05EA6AD18F798D50050D9D4 /* MCKFileSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCKFileSpec.m; sourceTree = "<group>"; };
+		D05EA6C918F7A08A0050D9D4 /* MCKAlbumSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCKAlbumSpec.m; sourceTree = "<group>"; };
+		D05EA6DF18F7A1510050D9D4 /* example_album.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = example_album.json; sourceTree = "<group>"; };
+		D061AFAD18E78D7900866B2D /* MCKRequestStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCKRequestStatus.h; sourceTree = "<group>"; };
+		D061AFB318E9168B00866B2D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		D063384E18F1E704008EBFAC /* MCKResponseProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCKResponseProcessor.h; sourceTree = "<group>"; };
+		D063384F18F1E704008EBFAC /* MCKResponseProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCKResponseProcessor.m; sourceTree = "<group>"; };
+		D066A40E18ECAB87008D1757 /* MCKConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCKConstants.h; sourceTree = "<group>"; };
+		D066A40F18ECAB87008D1757 /* MCKConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCKConstants.m; sourceTree = "<group>"; };
+		D07B43AE18F3A98900F93786 /* MCKObjectSpec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCKObjectSpec.h; sourceTree = "<group>"; };
+		D07B43AF18F3A98900F93786 /* MCKObjectSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCKObjectSpec.m; sourceTree = "<group>"; };
+		D07B43B118F3ACDD00F93786 /* MediaCrushKit-Tests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MediaCrushKit-Tests-Prefix.pch"; sourceTree = "<group>"; };
+		D07B43F618F3BC7F00F93786 /* Specta.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Specta.xcodeproj; path = specta/Specta.xcodeproj; sourceTree = "<group>"; };
+		D07B440518F3BC8300F93786 /* Expecta.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Expecta.xcodeproj; path = expecta/Expecta.xcodeproj; sourceTree = "<group>"; };
+		D07B441D18F3C26500F93786 /* MCKServerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCKServerSpec.m; sourceTree = "<group>"; };
+		D089624118FCCF1900B39E02 /* upload_valid.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = upload_valid.json; sourceTree = "<group>"; };
+		D089625718FCCF2600B39E02 /* upload_exists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = upload_exists.json; sourceTree = "<group>"; };
+		D089625918FCD1A700B39E02 /* MCKRequestStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCKRequestStatus.m; sourceTree = "<group>"; };
+		D089625B18FCD1BD00B39E02 /* MCKRequestStatus_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCKRequestStatus_Private.h; sourceTree = "<group>"; };
+		D0BFB45D18FA24840049D82F /* url-info_valid.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "url-info_valid.json"; sourceTree = "<group>"; };
+		D0BFB49318FA4CDE0049D82F /* MCKClient+File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MCKClient+File.h"; sourceTree = "<group>"; };
+		D0BFB49418FA4CDE0049D82F /* MCKClient+File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MCKClient+File.m"; sourceTree = "<group>"; };
+		D0BFB49718FA5A390049D82F /* flags_valid.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flags_valid.json; sourceTree = "<group>"; };
+		D0BFB4AF18FA646B0049D82F /* file-info_valid.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "file-info_valid.json"; sourceTree = "<group>"; };
+		D0BFB4D518FB6A210049D82F /* MCKClient+Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MCKClient+Album.h"; sourceTree = "<group>"; };
+		D0BFB4D618FB6A210049D82F /* MCKClient+Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MCKClient+Album.m"; sourceTree = "<group>"; };
+		D0BFB4D918FB7A7C0049D82F /* album-create.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "album-create.json"; sourceTree = "<group>"; };
+		D0C1513E18D5125B0075264D /* MCKClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCKClient.h; sourceTree = "<group>"; };
+		D0C1513F18D5125B0075264D /* MCKClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCKClient.m; sourceTree = "<group>"; };
+		D0C1514218D515490075264D /* MCKFileMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCKFileMetadata.h; sourceTree = "<group>"; };
+		D0C1514318D515490075264D /* MCKFileMetadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCKFileMetadata.m; sourceTree = "<group>"; };
+		D0C1514618D544160075264D /* MCKObject_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCKObject_Private.h; sourceTree = "<group>"; };
+		D0C151FC18D62FBD0075264D /* MediaCrushKitDependencies.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MediaCrushKitDependencies.xcodeproj; path = MediaCrushKitDependencies/MediaCrushKitDependencies.xcodeproj; sourceTree = "<group>"; };
+		D0C1520618D6300C0075264D /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/MediaCrushKit-fdumzcbclkpdidczajanibewelrd/Build/Products/Debug/AFNetworking.framework"; sourceTree = "<group>"; };
+		D0D8D65218B32B4A004BB3FC /* Mantle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Mantle.xcodeproj; path = Mantle/Mantle.xcodeproj; sourceTree = "<group>"; };
+		D0D8D66A18B333ED004BB3FC /* MediaCrushKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaCrushKit.h; sourceTree = "<group>"; };
+		D0D8D66D18B3BD27004BB3FC /* MCKObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCKObject.h; sourceTree = "<group>"; };
+		D0D8D66E18B3BD27004BB3FC /* MCKObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCKObject.m; sourceTree = "<group>"; };
+		D0DB9E7218FB89AA00525C63 /* MCKClient+Upload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MCKClient+Upload.h"; sourceTree = "<group>"; };
+		D0DB9E7318FB89AA00525C63 /* MCKClient+Upload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MCKClient+Upload.m"; sourceTree = "<group>"; };
+		D0DB9E7618FB90FC00525C63 /* status_incomplete.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = status_incomplete.json; sourceTree = "<group>"; };
+		D0DB9E7818FB911500525C63 /* status_complete.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = status_complete.json; sourceTree = "<group>"; };
+		D0E319AF18F8DF63000E636D /* exists_false.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exists_false.json; sourceTree = "<group>"; };
+		D0E319C518F8E218000E636D /* MCKClient+URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MCKClient+URL.h"; sourceTree = "<group>"; };
+		D0E319C618F8E218000E636D /* MCKClient+URL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MCKClient+URL.m"; sourceTree = "<group>"; };
+		D0E319C918F92320000E636D /* MCKResponseProcessorSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCKResponseProcessorSpec.m; sourceTree = "<group>"; };
+		D0F97C2218FF730C0032F65F /* empty.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = empty.json; sourceTree = "<group>"; };
+		D0F97C3818FF77870032F65F /* album-info_valid.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "album-info_valid.json"; sourceTree = "<group>"; };
+		D0F97C3A18FF7FDE0032F65F /* MCKClient+Download.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MCKClient+Download.h"; sourceTree = "<group>"; };
+		D0F97C3B18FF7FDE0032F65F /* MCKClient+Download.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MCKClient+Download.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D05C0E2118A77BF000E63CB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01DA69918DAA8F4008CA67F /* ReactiveCocoa.framework in Frameworks */,
+				D0D8D66918B32C48004BB3FC /* Foundation.framework in Frameworks */,
+				D0C1520718D6300C0075264D /* AFNetworking.framework in Frameworks */,
+				D0D8D66818B32C41004BB3FC /* Mantle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05C0E3918A77BF000E63CB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D048B27318F64CE20012E280 /* OHHTTPStubs.framework in Frameworks */,
+				D07B441818F3BCBB00F93786 /* libSpecta-OSX.a in Frameworks */,
+				D07B441718F3BCB600F93786 /* libExpecta.a in Frameworks */,
+				D07B43B418F3B13E00F93786 /* Mantle.framework in Frameworks */,
+				D07B43B318F3B13A00F93786 /* ReactiveCocoa.framework in Frameworks */,
+				D07B43B218F3B13500F93786 /* AFNetworking.framework in Frameworks */,
+				D05C0E4218A77BF000E63CB9 /* MediaCrushKit.framework in Frameworks */,
+				D05C0E3E18A77BF000E63CB9 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0160B7018E0B376006ACEB3 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				D061AFAD18E78D7900866B2D /* MCKRequestStatus.h */,
+				D089625B18FCD1BD00B39E02 /* MCKRequestStatus_Private.h */,
+				D089625918FCD1A700B39E02 /* MCKRequestStatus.m */,
+				D063384E18F1E704008EBFAC /* MCKResponseProcessor.h */,
+				D063384F18F1E704008EBFAC /* MCKResponseProcessor.m */,
+				D0160B7118E0B414006ACEB3 /* MCKClient+Object.h */,
+				D0160B7218E0B414006ACEB3 /* MCKClient+Object.m */,
+				D0E319C518F8E218000E636D /* MCKClient+URL.h */,
+				D0E319C618F8E218000E636D /* MCKClient+URL.m */,
+				D0BFB4D518FB6A210049D82F /* MCKClient+Album.h */,
+				D0BFB4D618FB6A210049D82F /* MCKClient+Album.m */,
+				D0BFB49318FA4CDE0049D82F /* MCKClient+File.h */,
+				D0BFB49418FA4CDE0049D82F /* MCKClient+File.m */,
+				D0DB9E7218FB89AA00525C63 /* MCKClient+Upload.h */,
+				D0DB9E7318FB89AA00525C63 /* MCKClient+Upload.m */,
+				D0F97C3A18FF7FDE0032F65F /* MCKClient+Download.h */,
+				D0F97C3B18FF7FDE0032F65F /* MCKClient+Download.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		D0160B7518E257A5006ACEB3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D0160B7618E257DA006ACEB3 /* NSURLSessionConfiguration+MCKCopying.h */,
+				D0160B7718E257DA006ACEB3 /* NSURLSessionConfiguration+MCKCopying.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D01DA67C18DAA8DA008CA67F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D01DA68A18DAA8DA008CA67F /* ReactiveCocoa.framework */,
+				D01DA68C18DAA8DA008CA67F /* libReactiveCocoa-iOS.a */,
+				D01DA68E18DAA8DA008CA67F /* ReactiveCocoaTests.octest */,
+				D01DA69018DAA8DA008CA67F /* ReactiveCocoaTests-iOS.octest */,
+				D01DA69218DAA8DA008CA67F /* ReactiveCocoa-iOS-UIKitTestHost.app */,
+				D01DA69418DAA8DA008CA67F /* ReactiveCocoa-iOS-UIKitTestHostTests.octest */,
+				D01DA69618DAA8DA008CA67F /* libReactiveCocoa-Mac.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D028273418A97A5700C9A371 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				D028273518A97A7000C9A371 /* Base */,
+				D028273F18A97AF300C9A371 /* iOS */,
+				D028274318A97B0D00C9A371 /* OS X */,
+			);
+			name = Configuration;
+			path = External/xcconfigs;
+			sourceTree = "<group>";
+		};
+		D028273518A97A7000C9A371 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D028273618A97A9500C9A371 /* Common.xcconfig */,
+				D028273718A97AA900C9A371 /* Configurations */,
+				D028273C18A97AD600C9A371 /* Targets */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D028273718A97AA900C9A371 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				D028273818A97AC200C9A371 /* Debug.xcconfig */,
+				D028273918A97AC200C9A371 /* Profile.xcconfig */,
+				D028273A18A97AC200C9A371 /* Release.xcconfig */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		D028273C18A97AD600C9A371 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				D028273D18A97AED00C9A371 /* Application.xcconfig */,
+				D028273E18A97AED00C9A371 /* StaticLibrary.xcconfig */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		D028273F18A97AF300C9A371 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D028274118A97B0800C9A371 /* iOS-Base.xcconfig */,
+				D028274018A97B0800C9A371 /* iOS-Application.xcconfig */,
+				D028274218A97B0800C9A371 /* iOS-StaticLibrary.xcconfig */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		D028274318A97B0D00C9A371 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				D028274518A97B2800C9A371 /* Mac-Base.xcconfig */,
+				D028274418A97B2800C9A371 /* Mac-Application.xcconfig */,
+				D028274618A97B2800C9A371 /* Mac-DynamicLibrary.xcconfig */,
+				D028274718A97B2800C9A371 /* Mac-Framework.xcconfig */,
+				D028274818A97B2800C9A371 /* Mac-StaticLibrary.xcconfig */,
+			);
+			name = "OS X";
+			path = "Mac OS X";
+			sourceTree = "<group>";
+		};
+		D028274918A97BFC00C9A371 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D028274B18A97C4600C9A371 /* Supporting Files */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D028274B18A97C4600C9A371 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D028274C18A97C5500C9A371 /* MediaCrushKit-Info.plist */,
+				D028274D18A97C5500C9A371 /* MediaCrushKit-Prefix.pch */,
+				D028275018A97C6700C9A371 /* MediaCrushKit-Tests-Info.plist */,
+				D07B43B118F3ACDD00F93786 /* MediaCrushKit-Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D035D10818F4FE21003A6F26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D035D11718F4FE21003A6F26 /* libOHHTTPStubs.a */,
+				D035D11918F4FE21003A6F26 /* OHHTTPStubs iOS Tests.octest */,
+				D035D11B18F4FE21003A6F26 /* OHHTTPStubs.framework */,
+				D035D11D18F4FE21003A6F26 /* OHHTTPStubs Mac Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0460E9C18B4779500DDBB47 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				D0460EA118B477D500DDBB47 /* MCKServer.h */,
+				D0460EA218B477D500DDBB47 /* MCKServer.m */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		D048B25C18F64A8F0012E280 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				D0F97C2218FF730C0032F65F /* empty.json */,
+				D05EA6DF18F7A1510050D9D4 /* example_album.json */,
+				D048B27118F64B1B0012E280 /* exists_true.json */,
+				D0E319AF18F8DF63000E636D /* exists_false.json */,
+				D0BFB45D18FA24840049D82F /* url-info_valid.json */,
+				D0BFB49718FA5A390049D82F /* flags_valid.json */,
+				D0BFB4AF18FA646B0049D82F /* file-info_valid.json */,
+				D0F97C3818FF77870032F65F /* album-info_valid.json */,
+				D0BFB4D918FB7A7C0049D82F /* album-create.json */,
+				D0DB9E7618FB90FC00525C63 /* status_incomplete.json */,
+				D0DB9E7818FB911500525C63 /* status_complete.json */,
+				D089624118FCCF1900B39E02 /* upload_valid.json */,
+				D089625718FCCF2600B39E02 /* upload_exists.json */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		D05157C918AA056700AA88F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D05157D218AA806100AA88F5 /* MCKAlbum.h */,
+				D05157D318AA806100AA88F5 /* MCKAlbum.m */,
+				D05157CE18AA0BAA00AA88F5 /* MCKFile.h */,
+				D05157CF18AA0BAA00AA88F5 /* MCKFile.m */,
+				D0C1514218D515490075264D /* MCKFileMetadata.h */,
+				D0C1514318D515490075264D /* MCKFileMetadata.m */,
+				D05157D618AA819800AA88F5 /* MCKFileFlags.h */,
+				D05157D718AA819800AA88F5 /* MCKFileFlags.m */,
+				D05157CA18AA06BE00AA88F5 /* MCKMediaFile.h */,
+				D05157CB18AA06BE00AA88F5 /* MCKMediaFile.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D05C0E1B18A77BEF00E63CB9 = {
+			isa = PBXGroup;
+			children = (
+				D061AFB318E9168B00866B2D /* README.md */,
+				D05C0E2E18A77BF000E63CB9 /* Source */,
+				D05C0E4318A77BF000E63CB9 /* Tests */,
+				D028274918A97BFC00C9A371 /* Resources */,
+				D028273418A97A5700C9A371 /* Configuration */,
+				D0D8D61918B3257F004BB3FC /* External */,
+				D05C0E2718A77BF000E63CB9 /* Frameworks */,
+				D05C0E2618A77BF000E63CB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D05C0E2618A77BF000E63CB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D05C0E2518A77BF000E63CB9 /* MediaCrushKit.framework */,
+				D05C0E3C18A77BF000E63CB9 /* MediaCrushKit Mac Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D05C0E2718A77BF000E63CB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0C1520618D6300C0075264D /* AFNetworking.framework */,
+				D05C0E2B18A77BF000E63CB9 /* Foundation.framework */,
+				D05C0E3D18A77BF000E63CB9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D05C0E2E18A77BF000E63CB9 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D0D8D66A18B333ED004BB3FC /* MediaCrushKit.h */,
+				D066A40E18ECAB87008D1757 /* MCKConstants.h */,
+				D066A40F18ECAB87008D1757 /* MCKConstants.m */,
+				D0C1513E18D5125B0075264D /* MCKClient.h */,
+				D0C1513F18D5125B0075264D /* MCKClient.m */,
+				D0D8D66C18B3BCB7004BB3FC /* Base Model */,
+				D05157C918AA056700AA88F5 /* Model */,
+				D0160B7018E0B376006ACEB3 /* Request */,
+				D0460E9C18B4779500DDBB47 /* Server */,
+				D0160B7518E257A5006ACEB3 /* Extensions */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		D05C0E4318A77BF000E63CB9 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D07B43AD18F3A93F00F93786 /* Specs */,
+				D048B25C18F64A8F0012E280 /* Stubs */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		D07B43AD18F3A93F00F93786 /* Specs */ = {
+			isa = PBXGroup;
+			children = (
+				D035D12918F50A9F003A6F26 /* MCKClientSpec.m */,
+				D07B43AE18F3A98900F93786 /* MCKObjectSpec.h */,
+				D07B43AF18F3A98900F93786 /* MCKObjectSpec.m */,
+				D0E319C918F92320000E636D /* MCKResponseProcessorSpec.m */,
+				D05EA6C918F7A08A0050D9D4 /* MCKAlbumSpec.m */,
+				D05EA6AD18F798D50050D9D4 /* MCKFileSpec.m */,
+				D048B27E18F671AE0012E280 /* MCKFileMetadataSpec.m */,
+				D048B27418F6683A0012E280 /* MCKFileFlagsSpec.m */,
+				D048B27618F66E8F0012E280 /* MCKMediaFileSpec.m */,
+				D07B441D18F3C26500F93786 /* MCKServerSpec.m */,
+			);
+			path = Specs;
+			sourceTree = "<group>";
+		};
+		D07B43F718F3BC7F00F93786 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D07B43FE18F3BC7F00F93786 /* libSpecta-iOS.a */,
+				D07B440018F3BC7F00F93786 /* libSpecta-OSX.a */,
+				D07B440218F3BC7F00F93786 /* SpectaTests-iOS.xctest */,
+				D07B440418F3BC7F00F93786 /* Specta-OSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D07B440618F3BC8300F93786 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D07B440E18F3BC8400F93786 /* libExpecta.a */,
+				D07B441018F3BC8400F93786 /* libExpecta-iOS.a */,
+				D07B441218F3BC8400F93786 /* ExpectaTests.octest */,
+				D07B441418F3BC8400F93786 /* Expecta-iOSTests.octest */,
+				D07B441618F3BC8400F93786 /* ExpectaTests-XCTest.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0C1520B18D630280075264D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0C1521318D630280075264D /* AFNetworking.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0D8D61918B3257F004BB3FC /* External */ = {
+			isa = PBXGroup;
+			children = (
+				D035D10718F4FE21003A6F26 /* OHHTTPStubs.xcodeproj */,
+				D07B440518F3BC8300F93786 /* Expecta.xcodeproj */,
+				D07B43F618F3BC7F00F93786 /* Specta.xcodeproj */,
+				D0C151FC18D62FBD0075264D /* MediaCrushKitDependencies.xcodeproj */,
+				D0D8D65218B32B4A004BB3FC /* Mantle.xcodeproj */,
+				D01DA65818DAA8C5008CA67F /* ReactiveCocoa.xcodeproj */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		D0D8D65318B32B4A004BB3FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0D8D65D18B32B4B004BB3FC /* Mantle.framework */,
+				D0D8D65F18B32B4B004BB3FC /* Mantle Tests.octest */,
+				D0D8D66118B32B4B004BB3FC /* libMantle-iOS.a */,
+				D0D8D66318B32B4B004BB3FC /* Mantle-iOS Tests.octest */,
+				D0D8D66518B32B4B004BB3FC /* libMantle-Mac.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0D8D66C18B3BCB7004BB3FC /* Base Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0C1514618D544160075264D /* MCKObject_Private.h */,
+				D0D8D66D18B3BD27004BB3FC /* MCKObject.h */,
+				D0D8D66E18B3BD27004BB3FC /* MCKObject.m */,
+			);
+			path = "Base Model";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D05C0E2218A77BF000E63CB9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D066A41018ECAB87008D1757 /* MCKConstants.h in Headers */,
+				D05157D418AA806100AA88F5 /* MCKAlbum.h in Headers */,
+				D0160B7318E0B414006ACEB3 /* MCKClient+Object.h in Headers */,
+				D063385018F1E704008EBFAC /* MCKResponseProcessor.h in Headers */,
+				D0C1514418D515490075264D /* MCKFileMetadata.h in Headers */,
+				D07B43AB18F3A0D200F93786 /* MCKObject_Private.h in Headers */,
+				D0BFB49518FA4CDE0049D82F /* MCKClient+File.h in Headers */,
+				D0F97C3C18FF7FDE0032F65F /* MCKClient+Download.h in Headers */,
+				D0460EA318B477D500DDBB47 /* MCKServer.h in Headers */,
+				D0D8D66F18B3BD27004BB3FC /* MCKObject.h in Headers */,
+				D05157CC18AA06BE00AA88F5 /* MCKMediaFile.h in Headers */,
+				D0DB9E7418FB89AA00525C63 /* MCKClient+Upload.h in Headers */,
+				D0BFB4D718FB6A210049D82F /* MCKClient+Album.h in Headers */,
+				D05157D018AA0BAA00AA88F5 /* MCKFile.h in Headers */,
+				D05157D818AA819800AA88F5 /* MCKFileFlags.h in Headers */,
+				D089625C18FCD1CC00B39E02 /* MCKRequestStatus_Private.h in Headers */,
+				D0D8D66B18B333ED004BB3FC /* MediaCrushKit.h in Headers */,
+				D0E319C718F8E218000E636D /* MCKClient+URL.h in Headers */,
+				D0160B7818E257DA006ACEB3 /* NSURLSessionConfiguration+MCKCopying.h in Headers */,
+				D0C1514018D5125B0075264D /* MCKClient.h in Headers */,
+				D028274F18A97C5500C9A371 /* MediaCrushKit-Prefix.pch in Headers */,
+				D07B43AC18F3A0DA00F93786 /* MCKRequestStatus.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D05C0E2418A77BF000E63CB9 /* MediaCrushKit-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05C0E4D18A77BF000E63CB9 /* Build configuration list for PBXNativeTarget "MediaCrushKit-OSX" */;
+			buildPhases = (
+				D05C0E2018A77BF000E63CB9 /* Sources */,
+				D05C0E2118A77BF000E63CB9 /* Frameworks */,
+				D05C0E2218A77BF000E63CB9 /* Headers */,
+				D05C0E2318A77BF000E63CB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D01DA69818DAA8E4008CA67F /* PBXTargetDependency */,
+				D0C1521518D6302E0075264D /* PBXTargetDependency */,
+				D0D8D66718B32B77004BB3FC /* PBXTargetDependency */,
+			);
+			name = "MediaCrushKit-OSX";
+			productName = CocoaCrush;
+			productReference = D05C0E2518A77BF000E63CB9 /* MediaCrushKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D05C0E3B18A77BF000E63CB9 /* MediaCrushKit Mac Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05C0E5018A77BF000E63CB9 /* Build configuration list for PBXNativeTarget "MediaCrushKit Mac Tests" */;
+			buildPhases = (
+				D05C0E3818A77BF000E63CB9 /* Sources */,
+				D05C0E3918A77BF000E63CB9 /* Frameworks */,
+				D05C0E3A18A77BF000E63CB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D035D12818F4FE45003A6F26 /* PBXTargetDependency */,
+				D07B441C18F3BD6400F93786 /* PBXTargetDependency */,
+				D07B441A18F3BD6100F93786 /* PBXTargetDependency */,
+				D05C0E4118A77BF000E63CB9 /* PBXTargetDependency */,
+			);
+			name = "MediaCrushKit Mac Tests";
+			productName = CocoaCrushTests;
+			productReference = D05C0E3C18A77BF000E63CB9 /* MediaCrushKit Mac Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D05C0E1C18A77BEF00E63CB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = DeVaukz;
+				TargetAttributes = {
+					D05C0E3B18A77BF000E63CB9 = {
+						TestTargetID = D05C0E2418A77BF000E63CB9;
+					};
+				};
+			};
+			buildConfigurationList = D05C0E1F18A77BEF00E63CB9 /* Build configuration list for PBXProject "MediaCrushKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D05C0E1B18A77BEF00E63CB9;
+			productRefGroup = D05C0E2618A77BF000E63CB9 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D07B440618F3BC8300F93786 /* Products */;
+					ProjectRef = D07B440518F3BC8300F93786 /* Expecta.xcodeproj */;
+				},
+				{
+					ProductGroup = D0D8D65318B32B4A004BB3FC /* Products */;
+					ProjectRef = D0D8D65218B32B4A004BB3FC /* Mantle.xcodeproj */;
+				},
+				{
+					ProductGroup = D0C1520B18D630280075264D /* Products */;
+					ProjectRef = D0C151FC18D62FBD0075264D /* MediaCrushKitDependencies.xcodeproj */;
+				},
+				{
+					ProductGroup = D035D10818F4FE21003A6F26 /* Products */;
+					ProjectRef = D035D10718F4FE21003A6F26 /* OHHTTPStubs.xcodeproj */;
+				},
+				{
+					ProductGroup = D01DA67C18DAA8DA008CA67F /* Products */;
+					ProjectRef = D01DA65818DAA8C5008CA67F /* ReactiveCocoa.xcodeproj */;
+				},
+				{
+					ProductGroup = D07B43F718F3BC7F00F93786 /* Products */;
+					ProjectRef = D07B43F618F3BC7F00F93786 /* Specta.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D05C0E2418A77BF000E63CB9 /* MediaCrushKit-OSX */,
+				D05C0E3B18A77BF000E63CB9 /* MediaCrushKit Mac Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D01DA68A18DAA8DA008CA67F /* ReactiveCocoa.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReactiveCocoa.framework;
+			remoteRef = D01DA68918DAA8DA008CA67F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D01DA68C18DAA8DA008CA67F /* libReactiveCocoa-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReactiveCocoa-iOS.a";
+			remoteRef = D01DA68B18DAA8DA008CA67F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D01DA68E18DAA8DA008CA67F /* ReactiveCocoaTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ReactiveCocoaTests.octest;
+			remoteRef = D01DA68D18DAA8DA008CA67F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D01DA69018DAA8DA008CA67F /* ReactiveCocoaTests-iOS.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ReactiveCocoaTests-iOS.octest";
+			remoteRef = D01DA68F18DAA8DA008CA67F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D01DA69218DAA8DA008CA67F /* ReactiveCocoa-iOS-UIKitTestHost.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "ReactiveCocoa-iOS-UIKitTestHost.app";
+			remoteRef = D01DA69118DAA8DA008CA67F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D01DA69418DAA8DA008CA67F /* ReactiveCocoa-iOS-UIKitTestHostTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ReactiveCocoa-iOS-UIKitTestHostTests.octest";
+			remoteRef = D01DA69318DAA8DA008CA67F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D01DA69618DAA8DA008CA67F /* libReactiveCocoa-Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReactiveCocoa-Mac.a";
+			remoteRef = D01DA69518DAA8DA008CA67F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D035D11718F4FE21003A6F26 /* libOHHTTPStubs.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOHHTTPStubs.a;
+			remoteRef = D035D11618F4FE21003A6F26 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D035D11918F4FE21003A6F26 /* OHHTTPStubs iOS Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "OHHTTPStubs iOS Tests.octest";
+			remoteRef = D035D11818F4FE21003A6F26 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D035D11B18F4FE21003A6F26 /* OHHTTPStubs.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OHHTTPStubs.framework;
+			remoteRef = D035D11A18F4FE21003A6F26 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D035D11D18F4FE21003A6F26 /* OHHTTPStubs Mac Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "OHHTTPStubs Mac Tests.octest";
+			remoteRef = D035D11C18F4FE21003A6F26 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D07B43FE18F3BC7F00F93786 /* libSpecta-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libSpecta-iOS.a";
+			remoteRef = D07B43FD18F3BC7F00F93786 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D07B440018F3BC7F00F93786 /* libSpecta-OSX.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libSpecta-OSX.a";
+			remoteRef = D07B43FF18F3BC7F00F93786 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D07B440218F3BC7F00F93786 /* SpectaTests-iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SpectaTests-iOS.xctest";
+			remoteRef = D07B440118F3BC7F00F93786 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D07B440418F3BC7F00F93786 /* Specta-OSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Specta-OSXTests.xctest";
+			remoteRef = D07B440318F3BC7F00F93786 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D07B440E18F3BC8400F93786 /* libExpecta.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libExpecta.a;
+			remoteRef = D07B440D18F3BC8400F93786 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D07B441018F3BC8400F93786 /* libExpecta-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libExpecta-iOS.a";
+			remoteRef = D07B440F18F3BC8400F93786 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D07B441218F3BC8400F93786 /* ExpectaTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ExpectaTests.octest;
+			remoteRef = D07B441118F3BC8400F93786 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D07B441418F3BC8400F93786 /* Expecta-iOSTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Expecta-iOSTests.octest";
+			remoteRef = D07B441318F3BC8400F93786 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D07B441618F3BC8400F93786 /* ExpectaTests-XCTest.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ExpectaTests-XCTest.xctest";
+			remoteRef = D07B441518F3BC8400F93786 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D0C1521318D630280075264D /* AFNetworking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AFNetworking.framework;
+			remoteRef = D0C1521218D630280075264D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D0D8D65D18B32B4B004BB3FC /* Mantle.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Mantle.framework;
+			remoteRef = D0D8D65C18B32B4B004BB3FC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D0D8D65F18B32B4B004BB3FC /* Mantle Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Mantle Tests.octest";
+			remoteRef = D0D8D65E18B32B4B004BB3FC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D0D8D66118B32B4B004BB3FC /* libMantle-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libMantle-iOS.a";
+			remoteRef = D0D8D66018B32B4B004BB3FC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D0D8D66318B32B4B004BB3FC /* Mantle-iOS Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Mantle-iOS Tests.octest";
+			remoteRef = D0D8D66218B32B4B004BB3FC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D0D8D66518B32B4B004BB3FC /* libMantle-Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libMantle-Mac.a";
+			remoteRef = D0D8D66418B32B4B004BB3FC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D05C0E2318A77BF000E63CB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05C0E3A18A77BF000E63CB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F97C3918FF77870032F65F /* album-info_valid.json in Resources */,
+				D0DB9E7918FB911500525C63 /* status_complete.json in Resources */,
+				D0F97C2318FF730C0032F65F /* empty.json in Resources */,
+				D05EA6E018F7A1510050D9D4 /* example_album.json in Resources */,
+				D0DB9E7718FB90FC00525C63 /* status_incomplete.json in Resources */,
+				D0BFB4DA18FB7A7C0049D82F /* album-create.json in Resources */,
+				D089625818FCCF2600B39E02 /* upload_exists.json in Resources */,
+				D048B27218F64B1B0012E280 /* exists_true.json in Resources */,
+				D089624218FCCF1900B39E02 /* upload_valid.json in Resources */,
+				D0BFB45E18FA24840049D82F /* url-info_valid.json in Resources */,
+				D0E319B018F8DF63000E636D /* exists_false.json in Resources */,
+				D0BFB4B018FA646B0049D82F /* file-info_valid.json in Resources */,
+				D0BFB49818FA5A390049D82F /* flags_valid.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D05C0E2018A77BF000E63CB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BFB49618FA4CDE0049D82F /* MCKClient+File.m in Sources */,
+				D0160B7918E257DA006ACEB3 /* NSURLSessionConfiguration+MCKCopying.m in Sources */,
+				D066A41118ECAB87008D1757 /* MCKConstants.m in Sources */,
+				D0C1514518D515490075264D /* MCKFileMetadata.m in Sources */,
+				D0F97C3D18FF7FDE0032F65F /* MCKClient+Download.m in Sources */,
+				D063385118F1E704008EBFAC /* MCKResponseProcessor.m in Sources */,
+				D0460EA418B477D500DDBB47 /* MCKServer.m in Sources */,
+				D05157D118AA0BAA00AA88F5 /* MCKFile.m in Sources */,
+				D089625A18FCD1A700B39E02 /* MCKRequestStatus.m in Sources */,
+				D0DB9E7518FB89AA00525C63 /* MCKClient+Upload.m in Sources */,
+				D05157D518AA806100AA88F5 /* MCKAlbum.m in Sources */,
+				D0C1514118D5125B0075264D /* MCKClient.m in Sources */,
+				D05157CD18AA06BE00AA88F5 /* MCKMediaFile.m in Sources */,
+				D0E319C818F8E218000E636D /* MCKClient+URL.m in Sources */,
+				D0160B7418E0B414006ACEB3 /* MCKClient+Object.m in Sources */,
+				D0D8D67018B3BD27004BB3FC /* MCKObject.m in Sources */,
+				D0BFB4D818FB6A210049D82F /* MCKClient+Album.m in Sources */,
+				D05157D918AA819800AA88F5 /* MCKFileFlags.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05C0E3818A77BF000E63CB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05EA6CA18F7A08A0050D9D4 /* MCKAlbumSpec.m in Sources */,
+				D048B27518F6683A0012E280 /* MCKFileFlagsSpec.m in Sources */,
+				D05EA6AE18F798D50050D9D4 /* MCKFileSpec.m in Sources */,
+				D07B43B018F3A98900F93786 /* MCKObjectSpec.m in Sources */,
+				D048B27718F66E8F0012E280 /* MCKMediaFileSpec.m in Sources */,
+				D035D12A18F50A9F003A6F26 /* MCKClientSpec.m in Sources */,
+				D07B441E18F3C26500F93786 /* MCKServerSpec.m in Sources */,
+				D0E319CA18F92320000E636D /* MCKResponseProcessorSpec.m in Sources */,
+				D048B27F18F671AE0012E280 /* MCKFileMetadataSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D01DA69818DAA8E4008CA67F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReactiveCocoa;
+			targetProxy = D01DA69718DAA8E4008CA67F /* PBXContainerItemProxy */;
+		};
+		D035D12818F4FE45003A6F26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OHHTTPStubs Mac";
+			targetProxy = D035D12718F4FE45003A6F26 /* PBXContainerItemProxy */;
+		};
+		D05C0E4118A77BF000E63CB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D05C0E2418A77BF000E63CB9 /* MediaCrushKit-OSX */;
+			targetProxy = D05C0E4018A77BF000E63CB9 /* PBXContainerItemProxy */;
+		};
+		D07B441A18F3BD6100F93786 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Expecta;
+			targetProxy = D07B441918F3BD6100F93786 /* PBXContainerItemProxy */;
+		};
+		D07B441C18F3BD6400F93786 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Specta-OSX";
+			targetProxy = D07B441B18F3BD6400F93786 /* PBXContainerItemProxy */;
+		};
+		D0C1521518D6302E0075264D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AFNetworking OS X";
+			targetProxy = D0C1521418D6302E0075264D /* PBXContainerItemProxy */;
+		};
+		D0D8D66718B32B77004BB3FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Mantle;
+			targetProxy = D0D8D66618B32B77004BB3FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D05C0E4B18A77BF000E63CB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D028273818A97AC200C9A371 /* Debug.xcconfig */;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"MCK_VERSION=0.1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D05C0E4C18A77BF000E63CB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D028273A18A97AC200C9A371 /* Release.xcconfig */;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"NDEBUG=1",
+					"MCK_VERSION=0.1",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D05C0E4E18A77BF000E63CB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D028274718A97B2800C9A371 /* Mac-Framework.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Resources/MediaCrushKit-Prefix.pch";
+				INFOPLIST_FILE = "Resources/MediaCrushKit-Info.plist";
+				PRODUCT_NAME = MediaCrushKit;
+			};
+			name = Debug;
+		};
+		D05C0E4F18A77BF000E63CB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D028274718A97B2800C9A371 /* Mac-Framework.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Resources/MediaCrushKit-Prefix.pch";
+				INFOPLIST_FILE = "Resources/MediaCrushKit-Info.plist";
+				PRODUCT_NAME = MediaCrushKit;
+			};
+			name = Release;
+		};
+		D05C0E5118A77BF000E63CB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D028274418A97B2800C9A371 /* Mac-Application.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Resources/MediaCrushKit-Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/External/expecta/src\"/**",
+					"\"$(SRCROOT)/External/specta/src\"",
+					"\"$(SRCROOT)/External/OHHTTPStubs",
+				);
+				INFOPLIST_FILE = "Resources/MediaCrushKit-Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-all_load",
+				);
+				PRODUCT_NAME = "MediaCrushKit Mac Tests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D05C0E5218A77BF000E63CB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D028274418A97B2800C9A371 /* Mac-Application.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Resources/MediaCrushKit-Tests-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/External/expecta/src\"/**",
+					"\"$(SRCROOT)/External/specta/src\"",
+					"\"$(SRCROOT)/External/OHHTTPStubs",
+				);
+				INFOPLIST_FILE = "Resources/MediaCrushKit-Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-all_load",
+				);
+				PRODUCT_NAME = "MediaCrushKit Mac Tests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D05C0E1F18A77BEF00E63CB9 /* Build configuration list for PBXProject "MediaCrushKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05C0E4B18A77BF000E63CB9 /* Debug */,
+				D05C0E4C18A77BF000E63CB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D05C0E4D18A77BF000E63CB9 /* Build configuration list for PBXNativeTarget "MediaCrushKit-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05C0E4E18A77BF000E63CB9 /* Debug */,
+				D05C0E4F18A77BF000E63CB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D05C0E5018A77BF000E63CB9 /* Build configuration list for PBXNativeTarget "MediaCrushKit Mac Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05C0E5118A77BF000E63CB9 /* Debug */,
+				D05C0E5218A77BF000E63CB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D05C0E1C18A77BEF00E63CB9 /* Project object */;
+}

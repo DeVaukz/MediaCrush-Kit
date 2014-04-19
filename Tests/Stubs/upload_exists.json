@@ -1,0 +1,28 @@
+{
+    "error": 409,
+    "hash": "LxqXxVPAvqqB",
+    "LxqXxVPAvqqB": {
+        "blob_type": "video",
+        "compression": 0.0,
+        "files": [
+                  {
+                  "file": "/LxqXxVPAvqqB.png",
+                  "url": "https://mediacru.sh/LxqXxVPAvqqB.png",
+                  "type": "image/png"
+                  }
+                  ],
+        "metadata": {
+            "dimensions": {
+                "height": 281,
+                "width": 500
+            },
+            "has_audio": false,
+            "has_video": true
+        },
+        "extras": [
+        ],
+        "original": "/LxqXxVPAvqqB.png",
+        "hash": "LxqXxVPAvqqB",
+        "type": "image/png"
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "CPvuR5lRhmS0": null,
+    "tVWMM_ziA3nm": {
+        "blob_type": "video",
+        "compression": 17.99,
+        "files": [
+                  {
+                  "file": "/tVWMM_ziA3nm.mp4",
+                  "url": "https://mediacru.sh/tVWMM_ziA3nm.mp4",
+                  "type": "video/mp4"
+                  },
+                  {
+                  "file": "/tVWMM_ziA3nm.ogv",
+                  "url": "https://mediacru.sh/tVWMM_ziA3nm.ogv",
+                  "type": "video/ogg"
+                  },
+                  {
+                  "file": "/tVWMM_ziA3nm.gif",
+                  "url": "https://mediacru.sh/tVWMM_ziA3nm.gif",
+                  "type": "image/gif"
+                  }
+                  ],
+        "extras": [
+        ],
+        "flags": {
+            "autoplay": true,
+            "loop": true,
+            "mute": true
+        },
+        "metadata": {
+            "dimensions": {
+                "height": 281,
+                "width": 500
+            },
+            "has_audio": false,
+            "has_video": true
+        },
+        "original": "/tVWMM_ziA3nm.gif",
+        "hash": "tVWMM_ziA3nm",
+        "type": "image/gif"
+    }
+}
