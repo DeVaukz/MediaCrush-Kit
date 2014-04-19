@@ -47,8 +47,8 @@ NSString * const MCKResponseProcesorOptionClassName = @"MCKResponseProcesorOptio
 //  If you're curious, signal chaining would have been a much better way to
 //  handle processing the responses.  The problem with that approach is
 //  the app may be terminated while a request is on-going, and re-launched
-//  when it completes.  Since signals can't be serialized, a way to codify
-//  the processing step was needed, hence MCKResponseProcessor.
+//  when it completes.  Since signals can't be serialized, a way to
+//  serialize the processing step was needed, hence MCKResponseProcessor.
 @implementation MCKResponseProcessor
 {
     Class _targetClass;
