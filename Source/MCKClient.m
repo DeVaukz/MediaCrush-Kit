@@ -33,7 +33,6 @@
 #import "MCKRequestStatus_Private.h"
 #import "MCKResponseProcessor.h"
 
-#import "EXTScope.h"
 #import <objc/runtime.h>
 
 // Used to access the _MCKRequest associated with an NSURLSessionTask.
