@@ -15,7 +15,7 @@
 
     #import <OHHTTPStubs/Sources/OHHTTPStubs.h>
 
-    #import "Specta.h"
+    #import <Specta/Specta.h>
 
     #define EXP_SHORTHAND
     #import "Expecta.h"
