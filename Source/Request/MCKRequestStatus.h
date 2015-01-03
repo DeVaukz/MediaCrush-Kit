@@ -4,8 +4,7 @@
 //! @file       MCKRequestStatus.h
 //!
 //! @author     D.V.
-//! @date       Created on 3/29/14.
-//! @copyright  Copyright (c) 2014 D.V. All rights reserved.
+//! @copyright  Copyright (c) 2015 D.V. All rights reserved.
 //|
 //| Permission is hereby granted, free of charge, to any person obtaining a
 //| copy of this software and associated documentation files (the "Software"),

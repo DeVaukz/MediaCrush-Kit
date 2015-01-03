@@ -4,7 +4,7 @@
 //! @file       MCKConstants.h
 //!
 //! @author     D.V.
-//! @copyright  Copyright (c) 2014 D.V. All rights reserved.
+//! @copyright  Copyright (c) 2015 D.V. All rights reserved.
 //|
 //| Permission is hereby granted, free of charge, to any person obtaining a
 //| copy of this software and associated documentation files (the "Software"),
@@ -29,7 +29,7 @@
 //! includes errors resulting from invalid data beging returned from the
 //! MediaCrush API.
 extern NSString * const MCKErrorDomain;
-//! The domain for all errors originating directly from the MediaCrush API.
+//! The domain for all errors origifnating directly from the MediaCrush API.
 extern NSString * const MCKAPIErrorDomain;
 
 //! When a \ref MCKClientErrorRequestCancelled error is raised, the available
