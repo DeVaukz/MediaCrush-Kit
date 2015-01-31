@@ -39,7 +39,12 @@
 //◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦//
 
 //! Creates and returns a server for the official MediaCrush site.
-+ (instancetype)defaultServer;
+//!
+//! @deprecated
+//! The official Mediacrush API has been shutdown.  Use \ref -initWithBaseURL:
+//! to initialize an instance of \ref MCKServer for communication with your
+//! own installation of Mediacrush.
++ (instancetype)defaultServer __attribute__((deprecated));
 
 //◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦//
 #pragma mark -  Initializing Custom Servers

@@ -1,6 +1,8 @@
 MediaCrushKit
 =============
 
+**Notice**: MediaCrush has shut down. The API only exists if you are running your own instance, or using a third party instance.
+
 MediaCrushKit is a Cocoa framework for interacting with the [MediaCrush API](https://mediacru.sh/docs/api).  It's built atop [AFNetworking](https://github.com/AFNetworking/AFNetworking),
 [Mantle](https://github.com/MantleFramework/Mantle), and
 [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa).
